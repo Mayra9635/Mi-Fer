@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThreeNHJob Version="0.3">
+  <SystemConfig>
+    <ObserverAndIlluminantSetting Version="2" PrimaryObserver="CIE1964" SecondaryObserver="CIE1931" TertiaryObserver="CIE1931" PrimaryIlluminant="D65" SecondaryIlluminant="A" TertiaryIlluminant="F2" />
+    <ToleranceSetting FromSystem="False">
+      <PrimaryTolerance KL94="1" KC94="1" KH94="1" KL00="1" KC00="1" KH00="1" KLcmc="2" KCcmc="1">
+        <ToleranceItem Key="dL" Lower="-0.8" Upper="0.8" IsUsed="False" />
+        <ToleranceItem Key="da" Lower="-0.8" Upper="0.8" IsUsed="False" />
+        <ToleranceItem Key="db" Lower="-0.8" Upper="0.8" IsUsed="False" />
+        <ToleranceItem Key="dEab" Upper="1" IsUsed="True" />
+      </PrimaryTolerance>
+      <SecondaryTolerance KL94="1" KC94="1" KH94="1" KL00="1" KC00="1" KH00="1" KLcmc="2" KCcmc="1">
+        <ToleranceItem Key="dL" Lower="-0.8" Upper="0.8" IsUsed="False" />
+        <ToleranceItem Key="da" Lower="-0.8" Upper="0.8" IsUsed="False" />
+        <ToleranceItem Key="db" Lower="-0.8" Upper="0.8" IsUsed="False" />
+        <ToleranceItem Key="dEab" Upper="1" IsUsed="True" />
+      </SecondaryTolerance>
+      <TertiaryTolerance KL94="1" KC94="1" KH94="1" KL00="1" KC00="1" KH00="1" KLcmc="2" KCcmc="1">
+        <ToleranceItem Key="dL" Lower="-0.8" Upper="0.8" IsUsed="False" />
+        <ToleranceItem Key="da" Lower="-0.8" Upper="0.8" IsUsed="False" />
+        <ToleranceItem Key="db" Lower="-0.8" Upper="0.8" IsUsed="False" />
+        <ToleranceItem Key="dEab" Upper="1" IsUsed="True" />
+      </TertiaryTolerance>
+    </ToleranceSetting>
+    <ChromaticitySetting>PseudoColor,Name,DateTime,IlluminantAndObserver,L,a,b,dL,da,db,ColorOffset,dEab,Judgement</ChromaticitySetting>
+    <JudgementSetting Invalid="#FF000000" NotGood="#FFFF0000" Pass="#FF008000" Warning="#FFFFA500" WarningLevel="" />
+    <StandardNameRule Rule="Standard{Index}" />
+    <TestNameRule Rule="Sample{Index}" />
+    <IsAutoNaming>False</IsAutoNaming>
+    <DefaultMaterial>
+    </DefaultMaterial>
+    <ReportSetting IsExportTolerance="True" IsExportReferences="True" />
+  </SystemConfig>
+  <Standards>
+    <Standard ID="1" Name="Standard1" DateTime="2021-06-28 17:54:22Z" Material="" UV="None" SpecularComponent="SCI" MeasurementCaliber="Phi8" IsTransmission="False" LensPosition="Unknown" Temperature="25,00" OpticalStruct="D/8" Instrument="YS3010" InstrumentSN="911065">
+      <SCI IsReflectance="True">
+        <Reflectances MinWavelength="400" MaxWavelength="700" WavelengthStep="10">0.571623345216115;0.603553473949432;0.540761371453603;0.423662761847178;0.306163509686788;0.245665361483892;0.196750765045484;0.158355350295703;0.123616541425387;0.103804466625055;0.0866875872015953;0.0773049195607503;0.0698288331429164;0.0682521387934685;0.0717992087205251;0.0729647924502691;0.0786140660444895;0.0992517272631327;0.139685645699501;0.192272901535034;0.29115151365598;0.427687217791875;0.576508005460103;0.66132926940918;0.715818802515666;0.805996358394623;0.949428220589956;1.13867994149526;1.32322458426158;1.46980969111125;1.61223848660787</Reflectances>
+      </SCI>
+    </Standard>
+    <Standard ID="2" Name="Standard2" DateTime="2021-06-28 17:54:30Z" Material="" UV="None" SpecularComponent="SCI" MeasurementCaliber="Phi8" IsTransmission="False" LensPosition="Unknown" Temperature="25,00" OpticalStruct="D/8" Instrument="YS3010" InstrumentSN="911065">
+      <SCI IsReflectance="True">
+        <Reflectances MinWavelength="400" MaxWavelength="700" WavelengthStep="10">0.570586423079173;0.60280038913091;0.541914741198222;0.423309514919917;0.30606147646904;0.245929459730784;0.196953137715658;0.157974377274513;0.123958515624205;0.103780453403791;0.086680976053079;0.0772632087270419;0.0696138987938563;0.068573738137881;0.0719846362868945;0.0728751545151075;0.0781968409816424;0.0994548375407855;0.139790018399556;0.192572166522344;0.290570030609767;0.427989294131597;0.576499462127686;0.661682506402334;0.715782245000203;0.806254585584005;0.949490884939829;1.13968284924825;1.32362322012583;1.47032205263774;1.61216855049133</Reflectances>
+      </SCI>
+    </Standard>
+  </Standards>
+  <OrphanTests />
+  <ViewSetting SpecularComponent="SCI" Illuminant="D65" Observer="CIE1964" IsCanUseHaze="False" />
+</ThreeNHJob>

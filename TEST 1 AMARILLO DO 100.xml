@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThreeNHJob Version="0.3">
+  <SystemConfig>
+    <ObserverAndIlluminantSetting Version="2" PrimaryObserver="CIE1964" SecondaryObserver="CIE1931" TertiaryObserver="CIE1931" PrimaryIlluminant="D65" SecondaryIlluminant="A" TertiaryIlluminant="F2" />
+    <ToleranceSetting FromSystem="False">
+      <PrimaryTolerance KL94="1" KC94="1" KH94="1" KL00="1" KC00="1" KH00="1" KLcmc="2" KCcmc="1">
+        <ToleranceItem Key="dL" Lower="-0.8" Upper="0.8" IsUsed="False" />
+        <ToleranceItem Key="da" Lower="-0.8" Upper="0.8" IsUsed="False" />
+        <ToleranceItem Key="db" Lower="-0.8" Upper="0.8" IsUsed="False" />
+        <ToleranceItem Key="dEab" Upper="1" IsUsed="True" />
+      </PrimaryTolerance>
+      <SecondaryTolerance KL94="1" KC94="1" KH94="1" KL00="1" KC00="1" KH00="1" KLcmc="2" KCcmc="1">
+        <ToleranceItem Key="dL" Lower="-0.8" Upper="0.8" IsUsed="False" />
+        <ToleranceItem Key="da" Lower="-0.8" Upper="0.8" IsUsed="False" />
+        <ToleranceItem Key="db" Lower="-0.8" Upper="0.8" IsUsed="False" />
+        <ToleranceItem Key="dEab" Upper="1" IsUsed="True" />
+      </SecondaryTolerance>
+      <TertiaryTolerance KL94="1" KC94="1" KH94="1" KL00="1" KC00="1" KH00="1" KLcmc="2" KCcmc="1">
+        <ToleranceItem Key="dL" Lower="-0.8" Upper="0.8" IsUsed="False" />
+        <ToleranceItem Key="da" Lower="-0.8" Upper="0.8" IsUsed="False" />
+        <ToleranceItem Key="db" Lower="-0.8" Upper="0.8" IsUsed="False" />
+        <ToleranceItem Key="dEab" Upper="1" IsUsed="True" />
+      </TertiaryTolerance>
+    </ToleranceSetting>
+    <ChromaticitySetting>PseudoColor,Name,DateTime,IlluminantAndObserver,L,a,b,dL,da,db,ColorOffset,dEab,Judgement</ChromaticitySetting>
+    <JudgementSetting Invalid="#FF000000" NotGood="#FFFF0000" Pass="#FF008000" Warning="#FFFFA500" WarningLevel="" />
+    <StandardNameRule Rule="Standard{Index}" />
+    <TestNameRule Rule="Sample{Index}" />
+    <IsAutoNaming>True</IsAutoNaming>
+    <DefaultMaterial>
+    </DefaultMaterial>
+    <ReportSetting IsExportTolerance="True" IsExportReferences="True" />
+  </SystemConfig>
+  <Standards>
+    <Standard ID="1" Name="Standard1" DateTime="2021-05-13 13:46:43Z" Material="" UV="None" SpecularComponent="SCIAndSCE" MeasurementCaliber="Phi8" IsTransmission="False" LensPosition="Unknown" Temperature="25,00" OpticalStruct="D/8" Instrument="YS3010" InstrumentSN="911065">
+      <SCI IsReflectance="True">
+        <Reflectances MinWavelength="400" MaxWavelength="700" WavelengthStep="10">1.46619033813477;1.48649430274963;1.50768113136292;1.51249444484711;1.52017033100128;1.53104615211487;1.53186225891113;1.51902532577515;1.52815532684326;1.53754305839539;1.53227961063385;1.52235972881317;1.52319931983948;1.52666831016541;1.52061021327972;1.5253564119339;1.52670383453369;1.51995551586151;1.51238369941711;1.51082861423492;1.51001131534576;1.50281286239624;1.50749254226685;1.49349343776703;1.49335539340973;1.50000989437103;1.49181723594666;1.48983824253082;1.48497176170349;1.47842180728912;1.48529851436615</Reflectances>
+      </SCI>
+      <SCE IsReflectance="True">
+        <Reflectances MinWavelength="400" MaxWavelength="700" WavelengthStep="10">1.52668285369873;1.52944004535675;1.5586541891098;1.57584416866302;1.57381844520569;1.5862900018692;1.59110856056213;1.57092666625977;1.58376693725586;1.59105229377747;1.58749139308929;1.57326245307922;1.57571065425873;1.58084893226624;1.57361388206482;1.5828777551651;1.5795704126358;1.570920586586;1.55756783485413;1.5570422410965;1.55842065811157;1.55363059043884;1.55591332912445;1.54380989074707;1.53435289859772;1.54588532447815;1.53404951095581;1.53170359134674;1.52997756004333;1.51695144176483;1.53436398506165</Reflectances>
+      </SCE>
+      <Tests>
+        <Test ID="1" Name="Sample10" DateTime="2021-05-18 13:01:06Z" Material="" UV="None" SpecularComponent="SCI" MeasurementCaliber="Phi8" IsTransmission="False" LensPosition="Unknown" Temperature="25,00" OpticalStruct="D/8" Instrument="YS3010" InstrumentSN="911065">
+          <SCI IsReflectance="True">
+            <Reflectances MinWavelength="400" MaxWavelength="700" WavelengthStep="10">0.0697235465049744;0.0705835670232773;0.0562326610088348;0.0465745665132999;0.0368526391685009;0.0367597378790379;0.0399968102574348;0.0459631606936455;0.0759652256965637;0.206868559122086;0.478947401046753;0.816895842552185;1.06462740898132;1.17125880718231;1.20718574523926;1.22290217876434;1.23187172412872;1.23508083820343;1.23437821865082;1.24404954910278;1.24547266960144;1.24265432357788;1.25216865539551;1.24475884437561;1.24618399143219;1.25829648971558;1.254270195961;1.26440322399139;1.26299262046814;1.25948238372803;1.27528417110443</Reflectances>
+          </SCI>
+        </Test>
+        <Test ID="2" Name="Sample4" DateTime="2021-05-18 12:52:42Z" Material="" UV="None" SpecularComponent="SCI" MeasurementCaliber="Phi8" IsTransmission="False" LensPosition="Unknown" Temperature="25,00" OpticalStruct="D/8" Instrument="YS3010" InstrumentSN="911065">
+          <SCI IsReflectance="True">
+            <Reflectances MinWavelength="400" MaxWavelength="700" WavelengthStep="10">0.0867202803492546;0.0779124572873116;0.0649501755833626;0.0539560914039612;0.0406023561954498;0.0412229634821415;0.0460256300866604;0.0547929853200912;0.0941673889756203;0.246084973216057;0.541329681873322;0.870678305625916;1.08461117744446;1.17057418823242;1.19742572307587;1.21461176872253;1.223109126091;1.22528648376465;1.22305297851563;1.23060774803162;1.23460483551025;1.22915470600128;1.23710322380066;1.23218941688538;1.23515772819519;1.24643588066101;1.24387454986572;1.25067985057831;1.25005352497101;1.24901688098907;1.26729595661163</Reflectances>
+          </SCI>
+        </Test>
+        <Test ID="3" Name="Sample5" DateTime="2021-05-18 12:56:09Z" Material="" UV="None" SpecularComponent="SCI" MeasurementCaliber="Phi8" IsTransmission="False" LensPosition="Unknown" Temperature="25,00" OpticalStruct="D/8" Instrument="YS3010" InstrumentSN="911065">
+          <SCI IsReflectance="True">
+            <Reflectances MinWavelength="400" MaxWavelength="700" WavelengthStep="10">0.0730108097195625;0.0707728713750839;0.0581220127642155;0.0483334586024284;0.0349079929292202;0.0359803810715675;0.0401681661605835;0.0464915931224823;0.0770417973399162;0.207012802362442;0.488534390926361;0.831412553787231;1.08224964141846;1.19233644008636;1.22887063026428;1.25004947185516;1.26030015945435;1.26626527309418;1.26760625839233;1.27570068836212;1.28065514564514;1.27744662761688;1.28641867637634;1.28043937683105;1.28149116039276;1.28860712051392;1.29045915603638;1.29194092750549;1.291632771492;1.28616392612457;1.30603039264679</Reflectances>
+          </SCI>
+        </Test>
+        <Test ID="4" Name="Sample7" DateTime="2021-05-18 12:57:20Z" Material="" UV="None" SpecularComponent="SCI" MeasurementCaliber="Phi8" IsTransmission="False" LensPosition="Unknown" Temperature="25,00" OpticalStruct="D/8" Instrument="YS3010" InstrumentSN="911065">
+          <SCI IsReflectance="True">
+            <Reflectances MinWavelength="400" MaxWavelength="700" WavelengthStep="10">0.0731663033366203;0.0706365332007408;0.0608341619372368;0.046031478792429;0.0374896265566349;0.0362698026001453;0.0407458543777466;0.047666396945715;0.0773681774735451;0.20402929186821;0.478270024061203;0.820976078510284;1.07923185825348;1.20323657989502;1.24282431602478;1.26643681526184;1.27568864822388;1.28091752529144;1.278484582901;1.28819847106934;1.29234528541565;1.2880916595459;1.29566538333893;1.28434348106384;1.2841340303421;1.29460394382477;1.28876566886902;1.29435133934021;1.2931319475174;1.28958821296692;1.30051040649414</Reflectances>
+          </SCI>
+        </Test>
+        <Test ID="5" Name="Sample9" DateTime="2021-05-18 12:58:51Z" Material="" UV="None" SpecularComponent="SCI" MeasurementCaliber="Phi8" IsTransmission="False" LensPosition="Unknown" Temperature="25,00" OpticalStruct="D/8" Instrument="YS3010" InstrumentSN="911065">
+          <SCI IsReflectance="True">
+            <Reflectances MinWavelength="400" MaxWavelength="700" WavelengthStep="10">0.074097529053688;0.0711363703012466;0.0572638437151909;0.0493047647178173;0.0368128940463066;0.037594597786665;0.0423921719193459;0.0470804795622826;0.0791530832648277;0.206115320324898;0.466395676136017;0.795602023601532;1.0608229637146;1.19304883480072;1.2403906583786;1.27140057086945;1.28809118270874;1.29768073558807;1.29971325397491;1.32085752487183;1.32561612129211;1.32335650920868;1.33412766456604;1.32282888889313;1.33040142059326;1.34090507030487;1.34011280536652;1.34835708141327;1.34601247310638;1.34641993045807;1.36137592792511</Reflectances>
+          </SCI>
+        </Test>
+      </Tests>
+    </Standard>
+  </Standards>
+  <OrphanTests />
+  <ViewSetting SpecularComponent="SCI" Illuminant="D65" Observer="CIE1964" IsCanUseHaze="False" />
+</ThreeNHJob>
